@@ -1,0 +1,3 @@
+[submodule "GifWriter/qt-gif-plugin"]
+	path = GifWriter/qt-gif-plugin
+	url = https://github.com/ec1oud/qt-gif-plugin.git
