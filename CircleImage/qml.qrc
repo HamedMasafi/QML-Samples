@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>Camera.png</file>
-        <file>Back.png</file>
+        <file>CircleImage.qml</file>
+        <file>popeye.jpg</file>
     </qresource>
 </RCC>
