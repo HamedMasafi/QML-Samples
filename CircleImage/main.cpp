@@ -4,6 +4,8 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
+    
+    hello world
 
     QQmlApplicationEngine engine;
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
