@@ -21,15 +21,17 @@ void Postman::sendFile(QString filePath)
 {
     QFileInfo info(filePath);
 
-    const QUrl url("http://pachenar.ir/upload/file.php" );
+    const QUrl url("http://127.0.0.1:8025/html/upload.php");
+
     QHttpMultiPart *multiPart = new QHttpMultiPart(QHttpMultiPart::FormDataType);
 
     QHttpPart imagePart;
     imagePart.setHeader(QNetworkRequest::ContentTypeHeader, QVariant("image/" + info.suffix()));
-    imagePart.setHeader(QNetworkRequest::ContentDispositionHeader, QVariant("form-data; name=\"photo\""));
+    imagePart.setHeader(QNetworkRequest::ContentDispositionHeader, QVariant("form-data; name=\"photo\"; filename=\"" + info.fileName() + "\""));
     QFile *file = new QFile(filePath);
     file->open(QIODevice::ReadOnly);
     imagePart.setBodyDevice(file);
+    file->setParent(multiPart);
 
     multiPart->append(imagePart);
 

@@ -19,7 +19,7 @@ Window {
     FileDialog{
         id: fileDialog
         nameFilters: [ "Image files (*.jpeg *.jpg *.bmp *.gif *.png)", "All files (*)" ]
-        onAccepted: filePath.text = fileUrl
+        onAccepted: filePath.text = fileUrl.toString().replace("file://", "")
     }
 
     ColumnLayout{
