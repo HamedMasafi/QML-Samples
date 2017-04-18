@@ -21,7 +21,7 @@ void Postman::sendFile(QString filePath)
 {
     QFileInfo info(filePath);
 
-    const QUrl url("http://127.0.0.1:8025/html/upload.php");
+    const QUrl url("http://pachenar.ir/upload/file.php");
 
     QHttpMultiPart *multiPart = new QHttpMultiPart(QHttpMultiPart::FormDataType);
 

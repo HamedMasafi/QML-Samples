@@ -1,0 +1,73 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data.js</file>
+        <file>Archery.qml</file>
+        <file>Bird.qml</file>
+        <file>BoxEntity.qml</file>
+        <file>CircleEntity.qml</file>
+        <file>Column.qml</file>
+        <file>CreateLevel.qml</file>
+        <file>Entity.qml</file>
+        <file>ItemEditor.qml</file>
+        <file>LevelChoose.qml</file>
+        <file>Line.qml</file>
+        <file>main.qml</file>
+        <file>Nut.qml</file>
+        <file>Pig.qml</file>
+        <file>Play.qml</file>
+        <file>Timber.qml</file>
+        <file>Wall.qml</file>
+        <file>WoodBox.qml</file>
+        <file>img/archery-displace.png</file>
+        <file>img/archery.png</file>
+        <file>img/bg.png</file>
+        <file>img/bird-slice.png</file>
+        <file>img/bird.png</file>
+        <file>img/glass-circle (1).png</file>
+        <file>img/glass-circle (2).png</file>
+        <file>img/glass-rectangle (1).png</file>
+        <file>img/glass-rectangle (2).png</file>
+        <file>img/glass-rectangle (3).png</file>
+        <file>img/glass-rectangle (4).png</file>
+        <file>img/glass-rectangle (5).png</file>
+        <file>img/glass-rectangle (6).png</file>
+        <file>img/glass-slice.png</file>
+        <file>img/glass-triangle (1).png</file>
+        <file>img/glass-triangle (2).png</file>
+        <file>img/pig-slice.png</file>
+        <file>img/pig.png</file>
+        <file>img/stone-circle (1).png</file>
+        <file>img/stone-circle (2).png</file>
+        <file>img/stone-rectangle (1).png</file>
+        <file>img/stone-rectangle (2).png</file>
+        <file>img/stone-rectangle (3).png</file>
+        <file>img/stone-rectangle (4).png</file>
+        <file>img/stone-rectangle (5).png</file>
+        <file>img/stone-rectangle (6).png</file>
+        <file>img/stone-rectangle (7).png</file>
+        <file>img/stone-rectangle (8).png</file>
+        <file>img/stone-slice.png</file>
+        <file>img/stone-triangle (1).png</file>
+        <file>img/stone-triangle (2).png</file>
+        <file>img/wood-circle (1).png</file>
+        <file>img/wood-circle (2).png</file>
+        <file>img/wood-rectangle (1).png</file>
+        <file>img/wood-rectangle (2).png</file>
+        <file>img/wood-rectangle (3).png</file>
+        <file>img/wood-rectangle (4).png</file>
+        <file>img/wood-rectangle (5).png</file>
+        <file>img/wood-rectangle (6).png</file>
+        <file>img/wood-rectangle (7).png</file>
+        <file>img/wood-rectangle (9).png</file>
+        <file>img/wood-rectangle (10).png</file>
+        <file>img/wood-rectangle (11).png</file>
+        <file>img/wood-slice.png</file>
+        <file>img/wood-triangle (1).png</file>
+        <file>img/wood-triangle (2).png</file>
+    </qresource>
+    <qresource prefix="/levels">
+        <file alias="Car.level">levels/Car.level</file>
+        <file alias="Medium.level">levels/Medium.level</file>
+        <file alias="Smple.level">levels/Simple.level</file>
+    </qresource>
+</RCC>
