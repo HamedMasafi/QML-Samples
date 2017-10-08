@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file>sample.fa.qm</file>
+        <file>sample.en.qm</file>
+    </qresource>
+</RCC>

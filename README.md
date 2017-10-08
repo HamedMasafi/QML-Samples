@@ -34,3 +34,6 @@ ListView with json from web with image display
 
 ## PostData
 Post http data to web page
+
+## Translate
+Runtime language change in QML applications
