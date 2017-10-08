@@ -35,5 +35,8 @@ ListView with json from web with image display
 ## PostData
 Post http data to web page
 
+## Responsive
+Automatically change layout of different screen sizes
+
 ## Translate
 Runtime language change in QML applications
