@@ -40,3 +40,7 @@ Automatically change layout of different screen sizes
 
 ## Translate
 Runtime language change in QML applications
+
+
+## Sprite
+Sample usage of Sprite animations
