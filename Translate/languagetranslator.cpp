@@ -5,7 +5,7 @@
 #include <QDebug>
 
 LanguageTranslator::LanguageTranslator(QObject *parent) : QObject(parent),
-    m_p(QString()), m_currentLanguage("en")
+    translator(nullptr), m_currentLanguage("en")
 {
     translator = new QTranslator(this);
 }
@@ -22,6 +22,9 @@ QString LanguageTranslator::currentLanguage() const
 
 void LanguageTranslator::changeLanguage(QString language)
 {
+    if (translator)
+        qApp->removeTranslator(translator);
+
     if (translator->load(":/translations/sample." + language.toLower()))
     {
         bool b = qApp->installTranslator(translator);

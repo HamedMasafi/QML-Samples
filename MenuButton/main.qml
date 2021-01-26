@@ -12,12 +12,14 @@ ApplicationWindow {
         id: drawer
         width: 0.66 * window.width
         height: window.height
+        x: 50
         edge: Qt.RightEdge
 
         Text {
             text: "Menu area"
             anchors.centerIn: parent
         }
+        z:10
     }
 
     Label {
@@ -38,8 +40,9 @@ ApplicationWindow {
         id: menu
         anchors.top: parent.top
         anchors.topMargin: 5
-        anchors.right: parent.right
-        anchors.rightMargin: 5
+        anchors.left: parent.left
+        anchors.leftMargin: 5
+        z: 99
 
         parent: drawer.parent.parent
         step: drawer.position * 100

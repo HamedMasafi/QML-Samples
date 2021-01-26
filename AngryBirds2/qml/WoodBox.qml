@@ -7,5 +7,5 @@ BoxEntity {
     friction: 0.3;
     restitution: 0.5;
     particleSource: "img/wood-slice.png"
-    damage: 25
+    damage: 15
 }

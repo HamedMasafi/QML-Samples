@@ -8,5 +8,5 @@ CircleEntity {
     friction: 90;		//اصطکاک
     restitution: 0.2;		//بازتاب
     particleSource: "img/pig-slice.png"
-    damage: 15
+    damage: 5
 }

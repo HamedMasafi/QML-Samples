@@ -100,13 +100,9 @@ Item{
             var x = b.x;
             var y = b.y;
 
-            var contentCenterX = x - view.width / 2;
-            var contentCenterY = y - view.height / 2;
+            var contentCenterX = Math.abs(x - worldItem.width / 2);
+            var contentCenterY = Math.abs(y - worldItem.height / 2);
 
-            if(contentCenterX < 0)
-                contentCenterX = 0;
-            if(contentCenterY < 0)
-                contentCenterY = 0;
             if(contentCenterX > worldItem.width - view.width)
                 contentCenterX = worldItem.width - view.width;
             if(contentCenterY > worldItem.height - view.height)

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>sample.json</file>
+        <file>CircleImage.qml</file>
+        <file>ModalPopup.qml</file>
+    </qresource>
+</RCC>

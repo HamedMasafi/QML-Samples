@@ -11,6 +11,7 @@ class LanguageTranslator : public QObject
     Q_PROPERTY(QString p READ p WRITE setP NOTIFY pChanged)
     Q_PROPERTY(QString currentLanguage READ currentLanguage WRITE setCurrentLanguage NOTIFY currentLanguageChanged)
     QTranslator *translator;
+
     
     QString m_p;
 

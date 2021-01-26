@@ -5,8 +5,8 @@ CircleEntity {
     id: root
     source: "img/bird.png"
     density: 50;			//تراکم
-    friction: 90;		//اصطکاک
-    restitution: 0.2;		//بازتاب
-    damage: 100
+    friction: 1500;		//اصطکاک
+    restitution: 0.5;		//بازتاب
+    damage: 30
     particleSource: "img/bird-slice.png"
 }

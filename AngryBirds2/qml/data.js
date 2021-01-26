@@ -2,92 +2,92 @@ var objects = [
     {
         "source": "pig.png",
         "texture": "pig",
-        "damage": 10,
+        "damage": 4,
         "shape": "circle"
     },
 
     {
 		"source": "wood-circle (1).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "circle"
 	},
 	{
 		"source": "wood-circle (2).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "circle"
 	},
 	{
 		"source": "wood-rectangle (1).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (2).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (3).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (4).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (5).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (6).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (7).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (9).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (10).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	{
 		"source": "wood-rectangle (11).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "rectangle"
 	},
 	/*{
 		"source": "wood-triangle (1).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "triangle"
 	},
 	{
 		"source": "wood-triangle (2).png",
 		"texture": "wood",
-		"damage": 10,
+        "damage": 4,
 		"shape": "triangle"
 	},
 	{
@@ -153,73 +153,73 @@ var objects = [
 	{
 		"source": "stone-rectangle (4).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "rectangle"
 	},
 	{
 		"source": "stone-rectangle (5).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "rectangle"
 	},
 	{
 		"source": "stone-rectangle (6).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "rectangle"
 	},
 	{
 		"source": "stone-rectangle (7).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "rectangle"
 	},
 	{
 		"source": "stone-rectangle (8).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "rectangle"
 	},
 	/*{
 		"source": "stone-triangle (1).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "triangle"
 	},
 	{
 		"source": "stone-triangle (2).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "triangle"
 	},*/
 	{
 		"source": "stone-circle (1).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "circle"
 	},
 	{
 		"source": "stone-circle (2).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "circle"
 	},
 	{
 		"source": "stone-rectangle (1).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "rectangle"
 	},
 	{
 		"source": "stone-rectangle (2).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "rectangle"
 	},
 	{
 		"source": "stone-rectangle (3).png",
 		"texture": "stone",
-        "damage": 90,
+        "damage": 20,
 		"shape": "rectangle"
 	}
 ]
